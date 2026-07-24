@@ -16,4 +16,4 @@ Enter, `copy /b *.xhtml {filename}.html`
 Press Ctrl + Alt + T to open your default terminal.\
 Run `python rmfixlayout.py`\
 \
-Once the script exits, run the 'kcc_input.zip' through KCC (Assuming that you're going to use a Kindle)
+Once the script exits, run the `kcc_input.zip` through KCC (Assuming that you're going to use a Kindle)
