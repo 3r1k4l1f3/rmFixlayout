@@ -11,9 +11,9 @@ First rename your EPUB to .zip\
 Then, find the folder containing all of the xhtml files\
 ### Windows
 Now, do Win + R and enter `cmd`\
-Enter, `copy /b *.xhtml {filename}.html`\
+Enter, `copy /b *.xhtml {filename}.html`
 ### Linux
 Press Ctrl + Alt + T to open your default terminal.\
-Run 'python rmfixlayout.py'\
+Run `python rmfixlayout.py`\
 \
 Once the script exits, run the 'kcc_input.zip' through KCC (Assuming that you're going to use a Kindle)
