@@ -9,7 +9,12 @@ This script requires the following:\
 \
 First rename your EPUB to .zip\
 Then, find the folder containing all of the xhtml files\
+###Windows###
 Now, do Win + R and enter `cmd`\
 Enter, `copy /b *.xhtml {filename}.html`\
+###Linux###
+Press Ctrl + Alt + T to open your default terminal.\
+Run 'python rmfixlayout.py'\
+\
 Now, run the script by entering `python rmfixlayout.py`. This will out put a zip file.\
 Once that is done, make it a .cbz file using KCC. (Assuming that you're going to use a Kindle)
