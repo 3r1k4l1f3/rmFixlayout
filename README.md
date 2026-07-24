@@ -8,7 +8,7 @@ This script requires the following:\
 -Playwright\
 \
 First rename your EPUB to .zip\
-Then, find the folder containing all of the xhtml files\
+Then, find the folder containing all of the xhtml files
 ### Windows
 Now, do Win + R and enter `cmd`\
 Enter, `copy /b *.xhtml {filename}.html`
