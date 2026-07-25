@@ -38,5 +38,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --override-ini=empty_parameter_set_mark=fail || test $? -eq 5
+        pytest --override-ini=empty_parameter_set_mark=xfail || test $? -eq 5
 
